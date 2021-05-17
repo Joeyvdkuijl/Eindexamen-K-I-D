@@ -1,0 +1,126 @@
+.header{
+    background-color: #FB619F;
+    /* height:120%; */
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+}
+.miniText{
+    margin: 50px;
+    margin-bottom: 80px;
+    width: 450px;
+    height: 100px;
+    justify-content: center;
+}
+
+.enterHome{
+    width: 500px;
+    height: 200px;
+    margin: 100px;
+    background-color: #B4F7F7;
+    /* margin-bottom: 1000px; */
+}
+#men{
+    width: 256px;
+    height: 356px;
+    margin: 20px;
+    /* margin-bottom: 100px; */
+}
+#menSpec{
+    width: 256px;
+    height: 356px;
+    margin: 20px;
+    margin-left: 50px;
+    /* margin-bottom: 100px; */
+}
+#menSpecial{
+    width: 235px;
+    height: 356px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1.4fr 0.5fr 0.7fr 0.7fr;
+}
+.textMonth{
+    color: black;
+    font-family: Staatliches;
+    font-size: 50px;
+    margin: 5px;
+    margin-left: 15px;
+}
+.catalogue{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.shoeSelect{
+    width: 400px;
+}
+.title{
+    margin: 0;
+    font-family: Courier Prime;
+    font-size: 20px;
+}
+.desc{
+    /* margin: 0; */
+    color: #C6C9CB;
+    font-family: Courier Prime;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.select{
+    font-family: Courier Prime;
+    font-size: 20px;
+}
+#buttonSpec{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+    }
+    
+    #buttonSpec:hover{
+        color: gray;
+    }
+    .gridSpec{
+        display: none;
+    }
+@media screen and (max-width: 480px){
+
+    .header{
+        display: none;
+    }
+    .gridSpec{
+        display: block;
+        margin-top: 10px;
+    }
+    .catalogue{
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        margin-left: 2px;
+    }
+    .shoeSelect{
+        width: 200px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .desc{
+        font-size: 12px;
+    }
+    .grid{
+        display: block;
+    }
+    #buttonSpec{
+        display: block;
+    }
+    .textMonth{
+        font-size: 30px;
+    }
+}

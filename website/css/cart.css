@@ -1,0 +1,251 @@
+.shopping-cart__item{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 50px;
+}
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.shopping-cart__item img{
+    width: 350px;
+}
+
+.webshop__content{
+    margin: 215px;
+    margin-top: 150px;
+}
+.bag{
+    color: black;
+    font-size: 40px;
+    font-family: Staatliches;
+    margin: 0;
+    margin-left: 50px;
+}
+
+/* .imgCas{
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+.info{
+    /* margin-top: 10px; */
+    font-family: Courier Prime;
+}
+
+.info h4{
+    font-size: 30px;
+    margin: 0;
+    /* margin-top: 80px; */
+    font-family: Courier Prime;
+}
+
+.info p{
+    margin-bottom: 262px;
+}
+
+.info a{
+    /* font-size: 30px; */
+    /* margin: 0; */
+    /* margin-top: 100px; */
+    font-family: Courier Prime;
+    color: gray;
+}
+
+.line{
+    margin-top: 100px;
+    width: 200%;
+    height: 1px;
+    /* border: gray solid 1px; */
+    background-color: gray;
+}
+
+.shopping-cart__surrounding{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.clickAdd1{
+    width: 50%;
+    /* height: 100%; */
+    background-color: black;
+    color: white;
+    font-family: Staatliches;
+    font-size: 30px;
+    border-radius: 50px;
+    /* position: absolute;
+    right: 310px;
+    top: 480px; */
+    /* margin: 10px; */
+    /* margin-bottom: 10px;
+     */
+     /* padding-bottom: 10px; */
+}
+
+.limitContext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.deliveryContext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.line2{
+    /* margin-top: 100px; */
+    width: 60%;
+    height: 1px;
+    /* border: gray solid 1px; */
+    background-color: gray;
+    /* margin-bottom: 10px; */
+}
+
+.total{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sum{
+    font-size: 20px;
+    font-family: Courier Prime;
+    position: absolute;
+    margin-left: 1000px;
+    width: 35%;
+    margin-bottom: 200px;
+}
+
+.summary{
+    font-family: Staatliches;
+    font-size: 40px;
+    margin: 0;
+    /* margin-left: 200px; */
+    margin-bottom: 30px;
+}
+
+.sum p{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 150px; */
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+}
+
+.spec{
+    /* position: absolute; */
+    margin-right: 300px;
+    color: red;
+}
+
+.surrounding{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.special{
+    color: red;
+    font-weight: 200;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+.infoSub{
+    padding: 10px;
+    border: gray solid 1px;
+    width: 65%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.redLet{
+font-family: Staatliches;
+font-size: 50px;
+margin: 0;
+color: red;
+}
+
+.let{
+    font-family: Courier Prime;
+    letter-spacing: 2px;
+}
+#buttonSpec{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+    }
+    
+    #buttonSpec:hover{
+        color: gray;
+    }
+    .sumMobile{
+        display: none;
+    }
+    .grid{
+        display: none;
+    }
+@media screen and (max-width: 480px){
+    #buttonSpec{
+        display: block;
+    }
+    .grid{
+        display: block;
+        margin-top: 10px;
+    }
+    .infoSub{
+        display: none;
+    }
+    .shopping-cart__item img{
+        width: 280px;
+    }
+    .shopping-cart__item{
+        display: block;
+    }
+    .webshop__content{
+        margin: 0;
+        margin-top: 30px;
+    }
+    .line{
+        width: 90%;
+    }
+    .info p{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .sum{
+        display: none;
+    }
+    .sumMobile{
+        display: block;
+        font-size: 20px;
+        font-family: Courier Prime;
+        /* position: absolute; */
+        /* margin-left: 1000px; */
+        /* width: 86%; */
+        margin-bottom: 10px;
+        margin: 50px;
+    }
+    .limitContext{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    }
+    .sumMobile p{
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

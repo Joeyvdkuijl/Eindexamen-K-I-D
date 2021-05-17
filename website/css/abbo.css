@@ -1,0 +1,280 @@
+.normalSub{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.normalSub p{
+    margin: 45px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Courier Prime;
+}
+.innerSpecial{
+    display: grid;
+    grid-template-columns: 0.02fr 1fr;
+    background-color: rgb(238, 238, 238);
+}
+.inner{
+    display: grid;
+    grid-template-columns: 0.02fr 1fr;
+}
+.normalSub i{
+    font-size: 250%;
+    color: red;
+    margin: 40px;
+}
+.surround{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px;
+    margin-top: 40px;
+}
+
+.primeSub p{
+    margin: 45px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Courier Prime;
+}
+.header h3{
+    /* grid-column: 2/2; */
+    text-align: center;
+    font-size: 70px;
+    font-family: Staatliches;
+    color: white;
+    width: 100%;
+    margin: 0;
+    /* height: 100%; */
+
+}
+.headerSpecial h3{
+    /* grid-column: 2/2; */
+    text-align: center;
+    font-size: 70px;
+    font-family: Staatliches;
+    color: white;
+    width: 100%;
+    margin: 0;
+    /* height: 100%; */
+
+}
+.header{
+    background-color: black;
+    /* margin-bottom: 100px; */
+    padding-top: 130px;
+}
+.headerSpecial{
+    background-color: black;
+    /* margin-bottom: 100px; */
+    padding-top: 10px;
+}
+.primeSub i{
+    font-size: 250%;
+    color: red;
+    margin: 40px;
+}
+
+.primeSub{
+    margin: 50px;
+    border: 3px solid black;
+}
+
+.normalSub{
+    margin: 50px;
+    border: 3px solid black;
+}
+
+.green{
+    font-size: 25px;
+    text-align: center;
+    color: chartreuse;
+    margin: 0;
+}
+
+.primeSub:hover{
+    border: chartreuse solid 3px;
+    box-shadow: black;
+}
+.normalSub:hover{
+    border: chartreuse solid 3px;
+    box-shadow: black;
+}
+.price{
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+
+.normalMobile{
+    font-size: 40px;
+    width: 70%;
+    /* width: 25%; */
+    /* height: 100%; */
+    /* margin: 100px; */
+    margin: 0;
+    margin-left: 84px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: Staatliches;
+    border: #F1E274 solid 2px;
+    /* grid-column:1/ span2; */
+}
+
+.prime{
+    font-size: 40px;
+    width: 70%;
+    /* height: 100%; */
+    /* margin: 100px; */
+    margin-left: 84px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: Staatliches;
+    border: #F1E274 solid 2px;
+    background-color: #F1E274;
+    /* grid-column:1/ span2; */
+}
+#buttonSpec{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+    }
+    
+    #buttonSpec:hover{
+        color: gray;
+    }
+    .grid{
+        display: none;
+    }
+    .normalSpec{
+        margin: 50px;
+        margin-bottom: 10px;
+    }
+@media screen and (max-width: 480px){
+    #buttonSpec{
+        display: block;
+    }
+    .grid{
+        display: block;
+        margin-top: 10px;
+    }
+    .normalSpec{
+        display: none;
+    }
+    .normalSub{
+        /* margin: 50px; */
+        width: 90%;
+        height: 50%;
+        border: 3px solid black;
+    }
+    .header{
+        background-color: black;
+    /* margin-bottom: 100px; */
+    padding-top: 50px;
+    }
+    .normalSub p{
+    /* margin: 45px;  */
+    margin: 0;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-family: Courier Prime;
+    }
+    .normalSub i{
+    font-size: 150%;
+    color: red;
+    /* margin: 40px; */
+    margin: 10px;
+    margin-top: 13px;
+    }
+    .normalSub p {
+        margin: 10px;
+        margin-left: 15px;
+        font-size: 17px;
+        font-family: Courier Prime;
+    }
+    .normalSub{
+        margin: 19px
+    }
+    .surround{
+        margin: 0;
+        display: block;
+    }
+    .normalMobile{
+    font-size: 22px;
+    width: 53%;
+    /* width: 25%; */
+    /* height: 100%; */
+    /* margin: 100px; */
+    margin: 0;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: Staatliches;
+    border: #F1E274 solid 2px;
+    /* grid-column: 1/ span2; */
+    }
+    .prime{
+        font-size: 22px;
+        width: 53%;
+        /* width: 25%; */
+        /* height: 100%; */
+        /* margin: 100px; */
+        margin: 0;
+        margin-left: 80px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+        padding: 0.5em;
+        background-color: white;
+        text-align: center;
+        justify-content: center;
+        font-family: Staatliches;
+        border: #F1E274 solid 2px;
+        background-color: #F1E274;
+        /* grid-column: 1/ span2; */
+        }
+    .primeSub{
+    /* margin: 22px; */
+    border: 3px solid black;
+    margin-left: 19px;
+    margin-right: 16px;
+    }
+    .primeSub p{
+        /* margin: 45px;  */
+        margin: 0;
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-left: 15px;
+        font-size: 17px;
+        font-family: Courier Prime;
+        }
+        .primeSub i{
+        font-size: 150%;
+        color: red;
+        /* margin: 40px; */
+        margin: 10px;
+        margin-top: 13px;
+        }
+        .primeSub p {
+            margin: 10px;
+            margin-left: 15px;
+            font-size: 17px;
+            font-family: Courier Prime;
+        }
+}
